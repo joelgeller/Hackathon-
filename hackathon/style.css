@@ -1,0 +1,114 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  #timer, #count {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  #btn {
+    font-size: 2rem;
+    padding: 1rem 2rem;
+    border: none;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #btn:hover {
+    background-color: #3e8e41;
+  }
+  
+  body {
+    background-color: black;
+    color: white;
+  }
+
+  .container {
+    max-width: 500px;
+    margin: 0 auto;
+    text-align: center;
+    padding-top: 50px;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+
+  button {
+    background-color: white;
+    color: black;
+    border-radius: 25px;
+    padding: 10px 30px;
+    font-size: 1.5rem;
+    margin-top: 30px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5);
+  }
+
+  #timer {
+    font-size: 1.5rem;
+  }
+
+  #count {
+    font-size: 1.5rem;
+    margin-top: 30px;
+  }
+  
+  #refresh-btn {
+    position: fixed;
+    top: 20px;
+    left: 15px;
+    width: 170px;
+    height: 50px;
+    border-radius: 4px;
+    background-color: #4a90e2;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 15px;
+  }
+  
+  #refresh-btn:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  #refresh-btn i {
+    font-size: 21px;
+    margin-right: 10px;
+  }
+  
+  #refresh-btn span {
+    margin-left: 10px;
+  }
+  
+  #high-score {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 0.5rem;
+  }
